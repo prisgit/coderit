@@ -5,4 +5,5 @@ ho fatto delle assunzioni:
 - ho scelto di non inserire gli anni di anzianità come attributo di dipendente per non doverlo modificare ogni anno. Per questo però ho dovuto "impostare" arbitrariamente una data di assunzione compatibile con i dati forniti
 - ho scelto di tenere l'informazione del riporto in un attributo di dipendente e non, ad esempio, di creare un array specifico per manager e dirigenti con l'elenco degli id dei dipendenti che riportano a loro. La scelta è dettata da una maggiore facilità di aggiornamento nel caso in cui un dipendente dovesse cambiare riporto. 
 
+Avevo un dubbio sulle modalità di calcolo dei bonus, chiarito da Coderit: i bonus di chi sta sopra nella gerarchia si calcolano sugli stipendi di chi sta sotto nella gerarchia già comprensivi di bonus (esempio: se un manager percepisce 2235 € di stipendio di cui 2000 € di stipendio base e 235 € di bonus, il bonus del dirigente si calcola come il 10% di 2235 €, non di 2000 €).
 
