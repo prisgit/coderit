@@ -8,7 +8,7 @@ ho fatto delle assunzioni:
 Avevo un dubbio sulle modalità di calcolo dei bonus, chiarito da Coderit: i bonus di chi sta sopra nella gerarchia si calcolano sugli stipendi di chi sta sotto nella gerarchia già comprensivi di bonus (esempio: se un manager percepisce 2235 € di stipendio di cui 2000 € di stipendio base e 235 € di bonus, il bonus del dirigente si calcola come il 10% di 2235 €, non di 2000 €).
 
 Ho suddiviso le classi in 4 package:
-1.data: contiene i dati, cioè le classi Dipendente e ListaDipendenti\n\r
+1.data: contiene i dati, cioè le classi Dipendente e ListaDipendenti'\n'\r
 2.app: contiene l'applicazione vera e propria con i metodi di calcolo
 3.utils: contiene la classe StaffUtilities con alcune costanti ed un metodo potenzialmente "riusabili"
 4.test: contiene la classe col metodo main
